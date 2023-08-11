@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: General Sans;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 99999;
+    border-radius: 50%;
+}
+.bounding{
+    width: fit-content;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+#hero{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: white;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#heading{
+    margin-top: 95px;
+}
+#heading h1{
+    margin-left: 30px;
+    opacity: .7;
+    line-height: 1;
+    font-family:sans-serif;
+    font-size: 11vw;
+    font-weight: 500;
+}
+#heading #second{
+    margin-left: 130px;
+}
+#heading h5{
+    margin-right: 200px;
+}
+.blocktext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+}
+.blocktext h5{
+    text-align: right;
+    
+}
+#chotiheading{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+#chotiheading h5{
+    margin-top: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 1.5vw;
+}
+#herofooter{
+    position: absolute;
+    width: 100%;
+    bottom: 3%;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+#herofooter a{
+    text-decoration: none;
+    color: white;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+#herofooter .circle{
+    width: 20px;
+    height: 20px;
+    background-color: #888;
+    border-radius: 50%;
+}
+#second{
+    /* padding-top: 200px; */
+    background-color: black;
+    width: 100%;
+    /* height: 100vh;     */
+    padding-right: 10vw;
+    padding-left: 5vw;
+}
+.elem{
+    position: relative;
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #888;
+    padding:2vw 1vw;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+}
+.elem h1{
+    font-size: 8vw;
+    opacity: .5;
+    font-family: sans-serif;
+    font-weight: 400;   
+}
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    /* display: none; */
+    opacity: 0;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 50px;
+    align-items: center;
+    padding: 10vw 10vw;
+    padding-left: 30vw;
+    width: 100%;
+    background-color: black;
+}
+#about img{
+    width: 200px;
+}
+#textabout{
+    color: white;
+}
+
+#textabout h5{
+    text-transform: uppercase;
+    opacity: .6;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+#textabout a{
+    padding: 12px 22px;
+    border: 1px solid #fff;
+    border-radius: 100px;
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+#subscibe{
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+}
+#subscibe h5{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    opacity: .6;
+}
+#subscibe h3{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    color: white;
+    background-color: black;
+}
+#footerleft{
+    display: flex;
+    gap: 20px;
+}
+
+#footerright{
+    display: flex;
+    gap: 30px;
+}
+#footer a{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
